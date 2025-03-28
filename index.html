@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flames calculator</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #F6F1DE ;
+        }
+        .box1{
+            text-align: center;
+            font-size: 40px;
+            color: #981524;
+            margin-top: 30px;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: auto;
+            margin-top: 30px;
+            padding: 30px;
+        }
+
+        .p1{
+            font-size: 40px;
+        }
+        .box2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 60rem;
+            border: 1px solid orangered;
+            border-radius: 10px;
+            padding: 30px;
+        }
+        ol{
+            padding-left: 15px;
+        }
+        ol > li{
+            margin: 10px;
+            font-size: 25px;
+        }
+
+        p{
+            font-size: 25px;
+        }
+        a{
+            text-decoration: none;
+            margin-top: 30px;
+            margin-bottom: 10px;
+            border: none;
+            padding: 8px;
+            font-size: 25px;
+            background-color: #801d1d;
+            color: whitesmoke;
+            transition: all ease .6s;
+        }
+        a:hover{
+            background-color: #FFDDAB;
+            color: #210F37;
+            border: 1px dotted #210F37;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <u><p class="p1">How Does The Flames Calculator Work?</p></u>
+    </div>
+    <div class="container">
+        <div class="box2">
+            <marquee behavior="slide" direction="up">
+                <p>The Flame Calculator follows a simple yet engaging process. Here’s how it works in detail:</p>
+            <ol>
+                <li><b>Input of Names:</b> You start by entering two names—yours and the person with whom you’d like to check compatibility. These could be anyone, from a friend to a romantic interest, or even a new acquaintance.</li>
+                <li><b>Matching of Letters:</b> Once the names are entered, the Flame Calculator compares the letters of both names. It counts the common letters, removing duplicates to simplify the process. The remaining count forms the basis for determining the relationship type.</li>
+                <li><b>FLAME Calculation:</b> The letters that remain after the name comparison are used to correspond with the letters in the acronym FLAME—where each letter represents:
+                    <ul>
+                        <li><b>F</b> = Friends</li>
+                        <li><b>L</b> = Lovers</li>
+                        <li><b>A</b> = Affectionate</li>
+                        <li><b>M</b> = Marriage</li>
+                        <li><b>E</b> = Enemies</li>
+                        <li><b>S</b> = Siblings</li>
+                    </ul>
+                </li>
+                <li>Based on the final count of letters, the result will fall into one of these six categories, offering an amusing perspective on your potential relationship.</li>
+            </ol>
+            </marquee>
+            
+            <a href="home.html">Click here to calculate</a>
+        </div>
+    </div>
+</body>
+</html>

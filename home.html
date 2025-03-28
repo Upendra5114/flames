@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flames calculator</title>
+    <link rel="stylesheet" href="flames.css">
+</head>
+<body>
+    <header class="header">
+        <p align="center">Flames Calculator</p>
+    </header>
+    <div class="head">
+        <p class="hp" align="center">Discover Your Relationship Compatibility with the Flame Calculator!</p>
+        <marquee behavior="slide" direction="up"><p class="fp" align="center">The Flame Calculator is a classic and entertaining way to explore the potential dynamics between two individuals based on their names. Whether you’re testing a romantic connection, friendship, or even curiosity about acquaintances, this calculator provides a fun insight into what type of relationship you might have with someone. The term <b>FLAME</b> is an acronym for <b>Friends, Lovers, Affectionate, Marriage, Enemies,</b> and <b>Soulmates</b>—each representing a different kind of bond.</p></marquee>
+    </div>
+    <div class="out-box">
+        <div class="container">
+            <h1>Flames Calculator</h1>
+            <p>Enter the names to find out the Relationship</p>
+
+                <label for="name1">Your Name:</label>
+                <input type="text" name="name1" id="name1" required><br>
+                <label for="name2">Partner's Name:</label>
+                <input type="text" name="name2" id="name2" required>
+
+                <button onclick="result()">Find Relationship</button>
+                <br>
+                <h3 id="res"></h3>
+        </div>
+
+    </div>
+    
+    <div class="out-box2">
+        <div class="container2">
+            <p align="center" class="hp1">What Do the Results Mean?</p>
+            <p>The Flame Calculator provides insight into six possible relationship categories:</p>
+            <ul>
+                <li><b>Friends:</b> This indicates that your connection might be rooted in a deep, trustworthy friendship. It suggests mutual respect, shared interests, and companionship.</li>
+                <li><b>Lovers: </b>This result points toward romantic possibilities. It hints at an emotional or physical attraction between the two people, indicating the potential for a passionate relationship.</li>
+                <li><b>Affectionate: </b>An affectionate relationship signifies a deep emotional bond. You may not be lovers, but there’s a sense of care, warmth, and emotional support between you.</li>
+                <li><b>Marriage: </b>This signifies a strong and lasting connection that could lead to a lifelong partnership. It’s often seen as the most desirable result for those seeking a stable, committed relationship.</li>
+                <li><b>Enemies: </b>While it may sound negative, this result suggests friction or conflict in your dynamic. However, many great relationships also start with rivalry, so it could mean you’re learning to overcome differences!</li>
+                <li><b>Siblings: </b>A sibling relationship is built on a foundation of shared memories, mutual understanding, and unconditional support. Though you may have your differences, there’s a deep connection rooted in love and loyalty that stands the test of time.</li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
